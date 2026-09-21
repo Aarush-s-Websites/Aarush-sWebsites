@@ -1,0 +1,38 @@
+{
+  "phone": "973-404-0795",
+  "contactNote": "Text or call (973) 404-0795 for a quote on a website.",
+  "work": {
+    "url": "https://aarush-s-websites.github.io/LilBots3dPrinting/#contact",
+    "domain": "aarush-s-websites.github.io/LilBots3dPrinting",
+    "tag": "3D-printed goods · online store",
+    "title": "Little Bot Creations",
+    "description": "A full online store for a 3D-printing shop — product catalog, cart, and real checkout, built from scratch."
+  },
+  "about": "I'm Aarush. I'm 15, and coding is genuinely one of my favorite things to do — not just as a school subject, but as something I build real stuff with in my own time.\n\nI got into building actual websites when I started using AI tools to handle the boring, repetitive parts of coding. That freed up time to focus on what I actually care about: making something look good and work right, not just exist.\n\nThis is a real, small side business. I build websites for local businesses that need one but don't want to pay agency prices for it. I handle the design, the code, and I set it up so you can update prices, photos, or listings yourself — no calling me every time something small needs to change.",
+  "pricing": [
+    {
+      "name": "Starter site",
+      "amount": "$500",
+      "note": "flat",
+      "highlight": false,
+      "features": [
+        "Single-page site, up to 5 sections",
+        "Mobile-friendly, fast to load",
+        "Self-service content panel",
+        "Hosting setup included"
+      ]
+    },
+    {
+      "name": "Store / custom",
+      "amount": "from $1,200",
+      "note": "",
+      "highlight": true,
+      "features": [
+        "Product catalog, cart, real checkout",
+        "Custom features for your business",
+        "Self-service content panel",
+        "Hosting setup included"
+      ]
+    }
+  ]
+}
