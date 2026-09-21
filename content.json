@@ -8,7 +8,7 @@
     "title": "Little Bot Creations",
     "description": "A full online store for a 3D-printing shop — product catalog, cart, and real checkout, built from scratch."
   },
-  "about": "I'm Aarush. I'm 15, and coding is genuinely one of my favorite things to do — not just as a school subject, but as something I build real stuff with in my own time.\n\nI got into building actual websites when I started using AI tools to handle the boring, repetitive parts of coding. That freed up time to focus on what I actually care about: making something look good and work right, not just exist.\n\nThis is a real, small side business. I build websites for local businesses that need one but don't want to pay agency prices for it. I handle the design, the code, and I set it up so you can update prices, photos, or listings yourself — no calling me every time something small needs to change.",
+  "about": "I'm Aarush. I'm 15, and coding is genuinely one of my favorite things to do — not just as a school subject, but as something I build real stuff with in my own time.\n\nI got into building actual websites when I started using AI tools to handle the boring, repetitive parts of coding. That freed up time to focus on what I actually care about: making something look good and work right, not just exist.\n\nThis is a real, small side business. I build websites for local businesses that need one but don't want to pay agency prices for it. I handle the design, the code, and I set it up so you can update prices, photos, or listings yourself — no calling me every time something small needs to change.\n\nMy goal is to help small businesses with discovery and success by growing their online presence.",
   "pricing": [
     {
       "name": "Starter site",
@@ -24,8 +24,8 @@
     },
     {
       "name": "Store / custom",
-      "amount": "from $200",
-      "note": "",
+      "amount": "$200",
+      "note": "flat",
       "highlight": true,
       "features": [
         "Product catalog, cart, real checkout",
