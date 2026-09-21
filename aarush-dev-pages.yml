@@ -1,0 +1,33 @@
+content:
+  - name: content
+    label: Site content
+    type: file
+    path: content.json
+    fields:
+      - { name: phone, label: "Phone number (display)", type: string }
+      - { name: contactNote, label: Contact section message, type: string }
+
+      - name: work
+        label: Featured project
+        type: object
+        fields:
+          - { name: url, label: "Link to the live site", type: string }
+          - { name: domain, label: "Domain shown in the browser-bar mockup", type: string }
+          - { name: tag, label: "Small tag above the title", type: string }
+          - { name: title, label: Project name, type: string }
+          - { name: description, label: Description, type: text }
+
+      - { name: about, label: "About me (blank line between paragraphs)", type: text }
+
+      - name: pricing
+        label: Pricing tiers
+        type: list
+        fields:
+          - { name: name, label: Tier name, type: string }
+          - { name: amount, label: "Price (e.g. $500 or from $1,200)", type: string }
+          - { name: note, label: "Small note next to price (e.g. flat)", type: string }
+          - { name: highlight, label: "Highlight this tier?", type: boolean, default: false }
+          - name: features
+            label: Feature list
+            type: list
+            field: { type: string }
