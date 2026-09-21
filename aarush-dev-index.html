@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>aarush.dev — Websites for small businesses</title>
+<meta name="description" content="I build fast, working websites for small local businesses — AI-assisted, hand-checked, done by a 15-year-old who actually codes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">aarush<span>.dev</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#work">Work</a>
+      <a href="#how">How it works</a>
+      <a href="#about">About</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>I build real websites for small businesses.</h1>
+        <p>High school student, self-taught coder. I use AI to move fast, then go through every line myself — so what you get is fast, working, and actually yours.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get a quote</a>
+          <a href="#work" class="btn btn-outline">See the work</a>
+        </div>
+      </div>
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span>
+        </div>
+        <div class="terminal-body">
+          <p class="line"><span class="prompt">$</span> aarush new joes-pizza</p>
+          <p class="line">&gt; scaffolding project…</p>
+          <p class="line">&gt; writing pages: home, menu, about, contact</p>
+          <p class="line">&gt; connecting admin panel…</p>
+          <p class="line">&gt; deploying…</p>
+          <p class="line"><span class="ok">✓</span> live in 46s → joespizza.site</p>
+          <p class="line"><span class="prompt">$</span> <span class="cursor"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Fact strip ===== -->
+  <section class="facts">
+    <div class="wrap facts-row">
+      <div class="fact"><strong>15</strong><span>years old</span></div>
+      <div class="fact"><strong>1 site</strong><span>already live and taking real orders</span></div>
+      <div class="fact"><strong>$0</strong><span>until you're happy with it</span></div>
+    </div>
+  </section>
+
+  <!-- ===== Work ===== -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Work</h2>
+        <p>One real project so far — more going up here as I take on new clients.</p>
+      </div>
+      <div class="work-grid">
+        <a class="work-card" id="workCard" href="#" target="_blank" rel="noopener">
+          <div class="browser-chrome">
+            <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
+            <span class="browser-url" id="workDomain"></span>
+          </div>
+          <div class="browser-body">
+            <div class="tile-grid">
+              <div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div>
+              <div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div>
+            </div>
+            <p class="work-tag" id="workTag"></p>
+            <h3 class="work-title" id="workTitle"></h3>
+            <p id="workDescription"></p>
+          </div>
+        </a>
+        <div class="work-empty">
+          <h3>Your business could be next</h3>
+          <p>Restaurant menu, service business, small shop — tell me what you need and I'll show you a mockup before you commit to anything.</p>
+          <a href="#contact" class="btn btn-outline" style="margin-top:4px;">Get a quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How it works ===== -->
+  <section class="section" id="how" style="background:var(--panel); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How it works</h2>
+        <p>No agency, no runaround — you're working directly with the person building your site.</p>
+      </div>
+      <ol class="steps">
+        <li>
+          <span class="step-num">01</span>
+          <div class="step-body"><h3>Tell me what you need</h3><p>A quick call or message about your business and what the site should do.</p></div>
+        </li>
+        <li>
+          <span class="step-num">02</span>
+          <div class="step-body"><h3>I build a first version</h3><p>Usually within a few days — AI handles the boring setup, I handle making sure it's actually solid.</p></div>
+        </li>
+        <li>
+          <span class="step-num">03</span>
+          <div class="step-body"><h3>You review and tweak</h3><p>I make changes until you're happy with it. Reasonable revisions are already included.</p></div>
+        </li>
+        <li>
+          <span class="step-num">04</span>
+          <div class="step-body"><h3>It goes live</h3><p>Hosted, connected to your domain, and handed off with a simple panel so you can update prices or photos yourself.</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <div class="avatar">AG</div>
+        <ul class="about-facts">
+          <li>15 years old</li>
+          <li>Based in New Jersey</li>
+          <li>Self-taught coder</li>
+        </ul>
+      </div>
+      <div class="about-copy">
+        <h2>About me</h2>
+        <div id="aboutParagraphs"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pricing ===== -->
+  <section class="section" id="pricing" style="background:var(--panel); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Pricing</h2>
+        <p>Flat pricing, no surprise invoices. Every site includes hosting setup and a panel to manage your own content.</p>
+      </div>
+      <div class="pricing-grid" id="pricingGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-card">
+        <div>
+          <h2>Have a business that needs a site?</h2>
+          <p id="contactNote">Text or call for a quote on a website.</p>
+        </div>
+        <a class="btn btn-primary" id="phoneLink" href="tel:">Call / text</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>aarush<span class="mono">.dev</span> — built and coded by me, with AI doing the boring parts.</span>
+    <span class="mono" id="year"></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
