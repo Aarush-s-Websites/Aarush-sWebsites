@@ -12,7 +12,7 @@
   "pricing": [
     {
       "name": "Starter site",
-      "amount": "$500",
+      "amount": "$100",
       "note": "flat",
       "highlight": false,
       "features": [
@@ -24,7 +24,7 @@
     },
     {
       "name": "Store / custom",
-      "amount": "from $1,200",
+      "amount": "from $200",
       "note": "",
       "highlight": true,
       "features": [
